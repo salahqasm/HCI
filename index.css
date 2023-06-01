@@ -1,0 +1,37 @@
+.center{
+    text-align: center;
+}
+.center input{
+    margin-left:40px;
+}
+.radioMax {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+}
+.radioMid{
+    height: 80px;
+    width: 80px;
+    vertical-align: middle;
+}
+.radioSmall{
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+}
+.radioLast{
+    height: 45px;
+    width: 45px;
+    vertical-align: middle;
+}
+.disagree{
+    color:rgb(202, 0, 0);
+    font-size: 30px;
+}
+.agree{
+    color: rgb(2, 194, 2);
+    font-size: 30px;
+    margin-left:40px;
+
+
+}
