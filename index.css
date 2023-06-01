@@ -67,3 +67,6 @@
     background-color: rgb(5, 197, 197);
     transition: 0.2s;
 }
+.question{
+    font-size: large;
+}
