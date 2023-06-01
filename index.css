@@ -1,37 +1,69 @@
-.center{
+.center {
     text-align: center;
 }
-.center input{
-    margin-left:40px;
+
+.questions input {
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+    
 }
+.questions input:hover{
+    transform: scale(110%);
+    transition: 0.2s;
+}
+
 .radioMax {
     height: 100px;
     width: 100px;
     vertical-align: middle;
 }
-.radioMid{
+
+.radioMid {
     height: 80px;
     width: 80px;
     vertical-align: middle;
 }
-.radioSmall{
+
+.radioSmall {
     height: 60px;
     width: 60px;
     vertical-align: middle;
 }
-.radioLast{
+
+.radioLast {
     height: 45px;
     width: 45px;
     vertical-align: middle;
 }
-.disagree{
-    color:rgb(202, 0, 0);
+
+.disagree {
+    color: rgb(202, 0, 0);
     font-size: 30px;
 }
-.agree{
+
+.agree {
     color: rgb(2, 194, 2);
     font-size: 30px;
-    margin-left:40px;
+    margin-left: 40px;
+}
 
+.submitButton {
+    width: 200px;
+    margin: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    border: 1px gray solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 173, 173);
+    color: #fff;
+    font-weight: bold;
+    transition: 0.2s;
+}
 
+.submitButton:hover{
+    transform: scale(104%);
+    background-color: rgb(5, 197, 197);
+    transition: 0.2s;
 }
