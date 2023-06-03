@@ -6,8 +6,9 @@
     margin-left: 40px;
     cursor: pointer;
     transition: 0.2s;
-    
+        accent-color: black;
 }
+
 .questions input:hover{
     transform: scale(110%);
     transition: 0.2s;
@@ -46,6 +47,7 @@
     color: rgb(2, 194, 2);
     font-size: 30px;
     margin-left: 40px;
+ 
 }
 
 .submitButton {
